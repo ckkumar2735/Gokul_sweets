@@ -53,6 +53,7 @@ text-transform: capitalize;
  
 }
 .Braces-button .btn-Braces:hover{
+    background: #895B1F;
     opacity: 95%;
 }
 
@@ -132,6 +133,12 @@ text-transform: capitalize;
 
     font-size: 19px;
     }
+
+    .Braces-button .btn-Braces:hover{
+        background: #895B1F;
+       
+        }
+    
     .our-container h2 {
     font-size: 38px;
     }
