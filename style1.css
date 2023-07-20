@@ -1,0 +1,157 @@
+
+        .new-container{
+	padding: 5rem 0rem;
+}
+.new-container h1{
+    color: #420B05;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.new-container h1 span{
+    display: block;
+    width: 12%;
+    border: 3px solid #0fdf6a;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.new-container p{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #161616;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+     line-height: normal;
+    text-transform: capitalize;
+}
+.Braces-button{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	margin: 1rem 0rem;
+}
+.Braces-button .btn-Braces{
+	padding: 22px 60px;
+    font-size: 28px;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    color: #fff;
+    border-radius: 8px;
+    background: #825F77;
+ 
+}
+.Braces-button .btn-Braces:hover{
+    opacity: 95%;
+}
+
+
+
+.our-container{
+    padding: 5rem 0rem;
+    text-align: center;
+}
+.our-container h2{
+    color: #420B05;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.our-container h6{
+    font-size: 30px;
+    font-weight: 600;
+    color: #448C7F;
+    text-align: center;
+}
+.our-container h2 span{
+    display: block;
+    width: 32%;
+    border: 3px solid #0fdf6a;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.our-container img{
+    width: 650px;
+    margin-bottom: 1rem;
+}
+.img2-fluid{
+    width: 50%;
+    height: auto;
+}
+.img-fluid1{
+    width: 50%;
+}
+.our-container p{
+    text-align: left;
+    color: #161616;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+
+}
+/* @media only screen and (max-width: 990px)and (min-width:770) {
+    .new-container h1 span {
+    margin-left: 200px;
+    width: 115px;
+ }
+} */
+@media only screen and (max-width: 768px) {
+    .new-container h1 span {
+        margin-left: 201px;
+    width: 115px;
+ }
+ .our-container h2 span {
+    width: 35%;
+    margin-left: 160px;
+ }
+}
+
+/* Media Query (Mobile) */
+@media only screen and (max-width: 450px) {
+ .new-container h1{
+    font-size: 34px;
+    }
+    .Braces-button .btn-Braces{
+
+    font-size: 19px;
+    }
+    .our-container h2 {
+    font-size: 38px;
+    }
+ .new-container h1 span {
+    width: 22%;
+    margin-left: 145px;
+ }
+ .our-container h2 span {
+    width: 35%;
+    margin-left: 126px;
+ }
+.container-button .btn-container {
+    padding: 16px 18px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.container-button p {
+    font-size: 15px !important;
+}
+
+}
+    
